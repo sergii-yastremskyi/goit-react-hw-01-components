@@ -1,0 +1,23 @@
+.item {
+  list-style: none;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightskyblue;
+  margin-top: 25px;
+}
+.statistics {
+  margin: auto;
+  padding: 50px;
+  width: 300px;
+  height: 120px;
+  background-color: lightgrey;
+}
+.title {
+  background-color: lightgoldenrodyellow;
+}

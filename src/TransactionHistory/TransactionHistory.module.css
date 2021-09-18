@@ -1,0 +1,29 @@
+.transactionTistory {
+  table-layout:auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+th,
+td {
+  /* background: lightgrey; */
+  padding: 10px 20px;
+}
+th{
+    background-color: lightgrey;
+}
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: lightslategray;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+tbody tr:nth-child(odd){
+  background-color:lightskyblue;
+  
+}
