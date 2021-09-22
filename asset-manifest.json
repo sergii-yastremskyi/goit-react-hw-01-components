@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ghpages-deployment/static/css/main.cc9d2664.chunk.css",
-    "main.js": "/ghpages-deployment/static/js/main.f0b1d16f.chunk.js",
-    "main.js.map": "/ghpages-deployment/static/js/main.f0b1d16f.chunk.js.map",
-    "runtime-main.js": "/ghpages-deployment/static/js/runtime-main.a9e9e114.js",
-    "runtime-main.js.map": "/ghpages-deployment/static/js/runtime-main.a9e9e114.js.map",
-    "static/js/2.0f17c8bc.chunk.js": "/ghpages-deployment/static/js/2.0f17c8bc.chunk.js",
-    "static/js/2.0f17c8bc.chunk.js.map": "/ghpages-deployment/static/js/2.0f17c8bc.chunk.js.map",
-    "static/js/3.3ff2bb5d.chunk.js": "/ghpages-deployment/static/js/3.3ff2bb5d.chunk.js",
-    "static/js/3.3ff2bb5d.chunk.js.map": "/ghpages-deployment/static/js/3.3ff2bb5d.chunk.js.map",
-    "index.html": "/ghpages-deployment/index.html",
-    "static/css/main.cc9d2664.chunk.css.map": "/ghpages-deployment/static/css/main.cc9d2664.chunk.css.map",
-    "static/js/2.0f17c8bc.chunk.js.LICENSE.txt": "/ghpages-deployment/static/js/2.0f17c8bc.chunk.js.LICENSE.txt"
+    "main.css": "/goit-react-hw-01-components/static/css/main.cc9d2664.chunk.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.f0b1d16f.chunk.js",
+    "main.js.map": "/goit-react-hw-01-components/static/js/main.f0b1d16f.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-01-components/static/js/runtime-main.90dcb8d3.js",
+    "runtime-main.js.map": "/goit-react-hw-01-components/static/js/runtime-main.90dcb8d3.js.map",
+    "static/js/2.0f17c8bc.chunk.js": "/goit-react-hw-01-components/static/js/2.0f17c8bc.chunk.js",
+    "static/js/2.0f17c8bc.chunk.js.map": "/goit-react-hw-01-components/static/js/2.0f17c8bc.chunk.js.map",
+    "static/js/3.3ff2bb5d.chunk.js": "/goit-react-hw-01-components/static/js/3.3ff2bb5d.chunk.js",
+    "static/js/3.3ff2bb5d.chunk.js.map": "/goit-react-hw-01-components/static/js/3.3ff2bb5d.chunk.js.map",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "static/css/main.cc9d2664.chunk.css.map": "/goit-react-hw-01-components/static/css/main.cc9d2664.chunk.css.map",
+    "static/js/2.0f17c8bc.chunk.js.LICENSE.txt": "/goit-react-hw-01-components/static/js/2.0f17c8bc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9e9e114.js",
+    "static/js/runtime-main.90dcb8d3.js",
     "static/js/2.0f17c8bc.chunk.js",
     "static/css/main.cc9d2664.chunk.css",
     "static/js/main.f0b1d16f.chunk.js"
