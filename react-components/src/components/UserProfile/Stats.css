@@ -1,0 +1,49 @@
+.stats{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding: 0;
+    background-color: rgb(219, 219, 219);
+    /* width: 340px; */
+    margin: 0;
+    border: 0px;
+    border-top: 1px;
+    
+    border-style: solid;
+    border-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+}
+li{
+    border: 0px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: black;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  
+    align-items: center;
+    width: 100%;
+    
+
+}
+li:last-child{
+    border-right:0px ;
+  
+}
+
+.label{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.quantity{
+    font-size: 16px;
+    font-weight: 800;
+}
+.labelUser{
+    color: black;
+}

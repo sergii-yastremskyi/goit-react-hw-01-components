@@ -1,0 +1,13 @@
+.profile{
+max-width: 340px;
+position: relative;
+display: flex;
+flex-direction: column;
+margin:0 auto;
+background-color: white;
+padding-top: 10px;
+padding-bottom: 0px;
+border-radius: 5px;
+box-shadow: 3px;
+}
+
