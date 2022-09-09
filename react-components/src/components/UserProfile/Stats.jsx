@@ -1,5 +1,6 @@
 import './Stats.css';
 
+
 export const Stats = ({ userProfile }) => {
     
     return (

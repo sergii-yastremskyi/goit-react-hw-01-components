@@ -1,5 +1,6 @@
 import './UploadStatistic.css';
 import { StatisticPainting } from './StatisticPainting'
+import PropTypes from 'prop-types'
 
 export const UploadStatistic = ({ data, header }) => { 
     return (
@@ -8,4 +9,15 @@ export const UploadStatistic = ({ data, header }) => {
                 <StatisticPainting data={data}/>     
         </section>
     )
+}
+
+UploadStatistic.propTypes = {
+    header: PropTypes.string,
+    data: PropTypes.arrayOf(
+        PropTypes.shape({
+        id: PropTypes.string,
+        label: PropTypes.string,
+        percentage: PropTypes.number,
+        
+    }))
 }

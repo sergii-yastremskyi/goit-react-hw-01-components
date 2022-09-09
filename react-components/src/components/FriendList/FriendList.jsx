@@ -1,5 +1,7 @@
 import './FriendList.css'
+import PropTypes from 'prop-types'
 export const FriendList = ({ friendsData }) => { 
+    
     return (
         <div className="friendsListContainer">
             <ul className='FriendList'>
@@ -21,4 +23,15 @@ export const FriendList = ({ friendsData }) => {
             </ul>
         </div>
     )
+}
+
+FriendList.propTypes = {
+        friendsData: PropTypes.arrayOf(
+        PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        isOnline: PropTypes.bool.isRequired,
+        avatar: PropTypes.string,
+        })
+    )
+
 }

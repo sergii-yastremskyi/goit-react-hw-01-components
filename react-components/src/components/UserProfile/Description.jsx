@@ -1,4 +1,5 @@
 import './Description.css';
+
 export const Description = ({ userProfile }) => {
     return (
        
@@ -14,3 +15,4 @@ export const Description = ({ userProfile }) => {
     </div>
 )
 }
+

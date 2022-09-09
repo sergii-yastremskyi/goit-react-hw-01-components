@@ -8,7 +8,7 @@ export const StatisticPainting = ({ data }) => {
                 const randomStyle = {};
                 randomStyle.backgroundColor = `${randomColor()}`
             
-                console.log(randomStyle)
+                // console.log(randomStyle)
                 return (
                     <li style={ randomStyle } key={item.id} className="item">
                         <span className='label' >{item.label}</span>
