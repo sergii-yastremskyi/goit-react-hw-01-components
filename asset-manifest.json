@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ghpages-deployment/static/css/main.1a4d7fad.css",
-    "main.js": "/ghpages-deployment/static/js/main.a6fbe55f.js",
-    "index.html": "/ghpages-deployment/index.html",
-    "main.1a4d7fad.css.map": "/ghpages-deployment/static/css/main.1a4d7fad.css.map",
-    "main.a6fbe55f.js.map": "/ghpages-deployment/static/js/main.a6fbe55f.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.1a4d7fad.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.a6fbe55f.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.1a4d7fad.css.map": "/goit-react-hw-01-components/static/css/main.1a4d7fad.css.map",
+    "main.a6fbe55f.js.map": "/goit-react-hw-01-components/static/js/main.a6fbe55f.js.map"
   },
   "entrypoints": [
     "static/css/main.1a4d7fad.css",
