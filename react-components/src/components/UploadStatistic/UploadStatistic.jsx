@@ -1,11 +1,11 @@
-import './UploadStatistic.css';
+import css from './UploadStatistic.module.css';
 import { StatisticPainting } from './StatisticPainting'
 import PropTypes from 'prop-types'
 
 export const UploadStatistic = ({ data, header }) => { 
     return (
-        <section className="statisticContainer">
-            <div className='StatisticHeader'><h2>{ header}</h2></div>
+        <section className={css.statisticContainer}>
+            <div className={css.StatisticHeader}><h2>{ header}</h2></div>
                 <StatisticPainting data={data}/>     
         </section>
     )

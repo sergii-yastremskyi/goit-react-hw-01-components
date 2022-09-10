@@ -1,13 +1,14 @@
 import { Description } from './Description'
 import { Stats } from './Stats'
 import "./UserProfileStyles.css"
+import css from "./UserProfileStyles.module.css"
 import PropTypes from 'prop-types'
 
 export const UserProfile = ({userProp}) => {
    
     return (
        
- <div className="profile">
+ <div className={css.profile}>
   <Description userProfile = {userProp} />
   <Stats userProfile = {userProp} />         
  

@@ -1,9 +1,9 @@
-import './StatisticPainting.css'
+import css from './StatisticPainting.module.css'
 import { randomColor } from './RandomColor'
 export const StatisticPainting = ({ data }) => {
    
     return (
-        <ul className="stat-list">
+        <ul className={css.statList}>
             {data.map((item) => {
                 const randomStyle = {};
                 randomStyle.backgroundColor = `${randomColor()}`
@@ -11,8 +11,8 @@ export const StatisticPainting = ({ data }) => {
                 // console.log(randomStyle)
                 return (
                     <li style={ randomStyle } key={item.id} className="item">
-                        <span className='label' >{item.label}</span>
-                        <span className='percentage'>{item.percentage}</span>
+                        <span className={css.label} >{item.label}</span>
+                        <span className={css.percentage}>{item.percentage}</span>
                     </li>
                 )
             }

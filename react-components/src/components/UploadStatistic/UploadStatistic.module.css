@@ -1,0 +1,11 @@
+.statisticContainer{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    margin: 20px auto;
+    background-color: toamto;
+    flex-direction: column;
+    /* padding: 20px; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}

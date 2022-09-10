@@ -1,4 +1,4 @@
-import './TransactionsHistory.css'
+import css from './TransactionsHistory.module.css'
 import PropTypes from 'prop-types'
 export const Transaction = ({index, id, type, amount, currency }) => { 
     const odd = index % 2 > 0;
@@ -6,7 +6,7 @@ export const Transaction = ({index, id, type, amount, currency }) => {
                         const capitalizeFirstLetter = ([first, ...rest], locale = navigator.language) =>
                             first === undefined ? '' : first.toLocaleUpperCase(locale) + rest.join('')
     return (
-        <tr  className={odd ? 'tableBgLight' : 'tableBgDark'} >
+        <tr className={odd ?  css.tableBgLight  : css.tableBgDark} >
                                 <td>{ capitalizeFirstLetter(type)}</td>
                              <td>{amount}</td>
                              <td>{currency}</td>

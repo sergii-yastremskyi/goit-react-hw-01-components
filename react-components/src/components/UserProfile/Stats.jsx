@@ -1,21 +1,22 @@
 import './Stats.css';
+import css from "./Stats.module.css"
 
 
 export const Stats = ({ userProfile }) => {
     
     return (
        
-    <ul className="stats">
+      <ul className={css.stats}>
     <li>
       <span className="labelUser">Followers</span>
-                <span className="quantity">{ userProfile.stats.followers }</span>
+                <span className={css.quantity}>{ userProfile.stats.followers }</span>
     </li>
     <li>
-      <span className="labelUser">Views</span>
-      <span className="quantity">{ userProfile.stats.views}</span>
+          <span className={css.labelUser}>Views</span>
+          <span className={css.quantity}>{ userProfile.stats.views}</span>
     </li>
     <li>
-      <span className="labelUser">Likes</span>
+      <span className={css.labelUser}>Likes</span>
                 <span className="quantity">{userProfile.stats.likes}</span>
     </li>
   </ul>
