@@ -5,8 +5,8 @@ import PropTypes from 'prop-types'
 export const UploadStatistic = ({ data, header }) => { 
     return (
         <section className={css.statisticContainer}>
-            <div className={css.StatisticHeader}><h2>{ header}</h2></div>
-                <StatisticPainting data={data}/>     
+            <div className={css.StatisticHeader}> {header && <h2> { header }</h2>}</div>
+                <StatisticPainting data={data}/>      
         </section>
     )
 }
